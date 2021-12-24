@@ -105,6 +105,7 @@ body {
   color: black;
   font-weight: bold;
   right: 5px;
+  display: none;
 }
 
 .popup .room {
