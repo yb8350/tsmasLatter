@@ -41,7 +41,7 @@ body {
 .door {
   width: 14.7%;
   min-width: 59px;
-  max-width: 123px;
+  max-width: 110px;
   position: absolute;
   left: 0;
   right: 0;
