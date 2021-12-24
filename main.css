@@ -119,46 +119,96 @@ body {
   position: absolute;
   top: 85px;
   left: 25px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="지영"] {
   position: absolute;
   top: 100px;
   left: 70px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="화정"] {
   position: absolute;
   top: 60px;
   left: 100px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="유진"] {
   position: absolute;
   top: 40px;
   left: 140px;
+  cursor: pointer;
 }
 .popup .char img[alt="지현"] {
   position: absolute;
   top: 80px;
   left: 165px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="수연"] {
   position: absolute;
   top: 95px;
   left: 205px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="세원"] {
   position: absolute;
   top: 65px;
-  left: 260px;
+  left: 255px;
+  cursor: pointer;
 }
 
 .popup .char img[alt="나연"] {
   position: absolute;
   top: 75px;
+  left: 285px;
+  cursor: pointer;
+}
+
+.popup .char img[alt="메"] {
+  position: absolute;
+  top: 65px;
+  left: 25px;
+  display: none;
+}
+.popup .char img[alt="리"] {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
+.popup .char img[alt="티"] {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+.popup .char img[alt="에"] {
+  position: absolute;
+  top: 20px;
+  left: 140px;
+}
+.popup .char img[alt="스1"] {
+  position: absolute;
+  top: 60px;
+  left: 165px;
+}
+.popup .char img[alt="마"] {
+  position: absolute;
+  top: 75px;
+  left: 205px;
+}
+.popup .char img[alt="스2"] {
+  position: absolute;
+  top: 45px;
+  left: 255px;
+}
+.popup .char img[alt="하트"] {
+  position: absolute;
+  top: 55px;
   left: 285px;
 }
 

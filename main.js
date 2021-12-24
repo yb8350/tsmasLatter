@@ -20,3 +20,63 @@ document.querySelector(".close").addEventListener("click", function () {
   popupEl.style.display = "none";
   blackEl.style.display = "none";
 });
+
+document
+  .querySelector("img[alt='민서']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("메");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+
+document
+  .querySelector("img[alt='지영']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("리");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+
+document
+  .querySelector("img[alt='화정']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("티");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+
+document
+  .querySelector("img[alt='유진']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("에");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+document
+  .querySelector("img[alt='지현']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("스1");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+document
+  .querySelector("img[alt='수연']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("마");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+document
+  .querySelector("img[alt='세원']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("스2");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
+document
+  .querySelector("img[alt='나연']")
+  .addEventListener("click", function () {
+    let text = document.getElementById("하트");
+    if (text.style.display == "none") text.style.display = "block";
+    else text.style.display = "none";
+  });
