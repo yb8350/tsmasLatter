@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/brick.jpg");
+  background-repeat: no-repeat;
+}
+
+.bulb {
+  width: 100%;
+  display: block;
+}
+
+.title {
+  width: 100%;
+  max-width: 400px;
+
+  margin: 0 auto;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.house {
+  width: 80%;
+  max-width: 600px;
+  min-width: 320px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+.door {
+  width: 16.5%;
+  min-width: 64px;
+  max-width: 123px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.bg_black {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  width: 320px;
+  height: 450px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  z-index: 10;
+  max-width: 600px;
+}
+
+.popup .close {
+  cursor: pointer;
+  font-size: 32px;
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  right: 5px;
+}
+
+.popup .room {
+  width: 100%;
+}
+
+.popup .char img {
+  width: 35px;
+}
+
+.popup .char img[alt="민서"] {
+  position: absolute;
+  top: 85px;
+  left: 25px;
+}
+
+.popup .char img[alt="지영"] {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+
+.popup .char img[alt="화정"] {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.popup .char img[alt="유진"] {
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+.popup .char img[alt="지현"] {
+  position: absolute;
+  top: 80px;
+  left: 165px;
+}
+
+.popup .char img[alt="수연"] {
+  position: absolute;
+  top: 95px;
+  left: 205px;
+}
+
+.popup .char img[alt="세원"] {
+  position: absolute;
+  top: 65px;
+  left: 260px;
+}
+
+.popup .char img[alt="나연"] {
+  position: absolute;
+  top: 75px;
+  left: 285px;
+}
+
+.popup .text {
+  font-size: 16px;
+  text-align: center;
+  padding: 65px 0 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/letter.png");
+  background-size: 100% 100%;
+  line-height: 20px;
+}
+
+.popup .text .head {
+  font-size: 18px;
+  display: block;
+}
+
+.popup .btn {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 160px 0 0 80px;
+  background-color: transparent;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
