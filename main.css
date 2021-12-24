@@ -39,8 +39,8 @@ body {
 }
 
 .door {
-  width: 16.5%;
-  min-width: 64px;
+  width: 14.7%;
+  min-width: 59px;
   max-width: 123px;
   position: absolute;
   left: 0;
@@ -50,6 +50,9 @@ body {
   margin: auto;
   z-index: 1;
   cursor: pointer;
+  transition: 1s;
+  transform: rotateY(0deg);
+  transform-origin: left;
 }
 
 .knock {
